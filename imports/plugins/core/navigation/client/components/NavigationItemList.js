@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import withStyles from "@material-ui/core/styles/withStyles";
 import Button from "@material-ui/core/Button";
+import { DndProvider } from "react-dnd";
+import { HTML5Backend } from "react-dnd-html5-backend";
 import NavigationItemCard from "./NavigationItemCard";
-
 
 const styles = (theme) => ({
   root: {
@@ -63,16 +64,18 @@ class NavigationItemList extends Component {
   render() {
     const { classes, onClickAddNavigationItem } = this.props;
     return (
-      <div className={classes.root}>
-        <div className={classes.header}>
-          <Button color="primary" variant="outlined" onClick={onClickAddNavigationItem}>Add navigation item</Button>
-        </div>
-        <div className={classes.list}>
-          <div className={classes.listContent}>
-            {this.renderNavigationItems()}
+      <DndProvider backend={HTML5Backend}>
+        <div className={classes.root}>
+          <div className={classes.header}>
+            <Button color="primary" variant="outlined" onClick={onClickAddNavigationItem}>Add navigation item</Button>
+          </div>
+          <div className={classes.list}>
+            <div className={classes.listContent}>
+              {this.renderNavigationItems()}
+            </div>
           </div>
         </div>
-      </div>
+      </DndProvider>
     );
   }
 }
