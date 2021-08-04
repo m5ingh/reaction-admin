@@ -1,3 +1,10 @@
+# [3.0.0-beta.19](https://github.com/reactioncommerce/reaction-admin/compare/v3.0.0-beta.18...v3.0.0-beta.19) (2021-08-04)
+
+
+### Bug Fixes
+
+* navigation tree working ([87af77a](https://github.com/reactioncommerce/reaction-admin/commit/87af77af8be9f1b44cdcc86362e11a913070fe80))
+
 # [3.0.0-beta.18](https://github.com/reactioncommerce/reaction-admin/compare/v3.0.0-beta.17...v3.0.0-beta.18) (2021-07-14)
 
 
