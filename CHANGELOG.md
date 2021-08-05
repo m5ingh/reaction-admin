@@ -1,3 +1,10 @@
+# [3.0.0-beta.20](https://github.com/reactioncommerce/reaction-admin/compare/v3.0.0-beta.19...v3.0.0-beta.20) (2021-08-05)
+
+
+### Bug Fixes
+
+* use 14 for node image version ([ecc51fa](https://github.com/reactioncommerce/reaction-admin/commit/ecc51faa4ed708e1d1ab3778b7fa26c6cb53a13f))
+
 # [3.0.0-beta.19](https://github.com/reactioncommerce/reaction-admin/compare/v3.0.0-beta.18...v3.0.0-beta.19) (2021-08-04)
 
 
