@@ -4,8 +4,8 @@ import IconButton from "@material-ui/core/IconButton";
 import withStyles from "@material-ui/core/styles/withStyles";
 import PencilIcon from "mdi-material-ui/Pencil";
 import CloseIcon from "mdi-material-ui/Close";
-import SortableTree, { removeNodeAtPath } from "react-sortable-tree";
-import "react-sortable-tree/style.css";
+import SortableTree, { removeNodeAtPath } from "react-sortable-tree-patch-react-17";
+import "react-sortable-tree-patch-react-17/style.css";
 import ConfirmDialog from "@reactioncommerce/catalyst/ConfirmDialog";
 import SortableTheme from "./SortableTheme";
 
