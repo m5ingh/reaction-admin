@@ -1,3 +1,10 @@
+# [3.0.0-beta.21](https://github.com/reactioncommerce/reaction-admin/compare/v3.0.0-beta.20...v3.0.0-beta.21) (2021-08-09)
+
+
+### Bug Fixes
+
+* update reac t sortable tree to a patch version that supports react 17 ([e8df604](https://github.com/reactioncommerce/reaction-admin/commit/e8df60449364f4916c41461c7716575b6d7440e2))
+
 # [3.0.0-beta.20](https://github.com/reactioncommerce/reaction-admin/compare/v3.0.0-beta.19...v3.0.0-beta.20) (2021-08-05)
 
 
