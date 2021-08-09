@@ -15,7 +15,7 @@ import Field from "@reactioncommerce/components/Field/v1";
 import TextInput from "@reactioncommerce/components/TextInput/v1";
 import { i18next } from "/client/api";
 import ConfirmDialog from "@reactioncommerce/catalyst/ConfirmDialog";
-import { changeNodeAtPath } from "react-sortable-tree";
+import { changeNodeAtPath } from "react-sortable-tree-patch-react-17";
 
 const styles = (theme) => ({
   closeButtonContainer: {
