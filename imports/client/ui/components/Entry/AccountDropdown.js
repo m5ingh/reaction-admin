@@ -8,6 +8,7 @@ import ButtonBase from "@material-ui/core/ButtonBase";
 import AccountIcon from "mdi-material-ui/Account";
 import Popover from "@material-ui/core/Popover";
 import { i18next } from "/client/api";
+import useCurrentShopId from "/imports/client/ui/hooks/useCurrentShopId.js";
 import ViewerInfo from "@reactioncommerce/components/ViewerInfo/v1";
 import Link from "@material-ui/core/Link";
 import Modal from "@material-ui/core/Modal";
@@ -51,10 +52,8 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const AccountDropdown = (props) => {
-  const {
-    viewer,
-    refetchViewer
-  } = props;
+  const { viewer, refetchViewer } = props;
+  const [shopId] = useCurrentShopId();
   const query = useQuery();
   const resetToken = query.get("resetToken");
   const classes = useStyles();
@@ -110,25 +109,18 @@ const AccountDropdown = (props) => {
 
   return (
     <Fragment>
-      <Modal
-        open={open}
-        onClose={closeModal}
-        aria-labelledby="entry-modal"
-        aria-describedby="entry-modal"
-      >
-        <div className={classes.paper}>
-          { getModalComponent() }
-        </div>
+      <Modal open={open} onClose={closeModal} aria-labelledby="entry-modal" aria-describedby="entry-modal">
+        <div className={classes.paper}>{getModalComponent()}</div>
       </Modal>
-      { isAuthenticated ?
+      {isAuthenticated ? (
         <ButtonBase onClick={toggleOpen}>
           <ViewerInfo viewer={viewer} />
         </ButtonBase>
-        :
+      ) : (
         <IconButton color="primary" onClick={toggleOpen}>
           <AccountIcon />
         </IconButton>
-      }
+      )}
 
       <Popover
         anchorEl={anchorElement}
@@ -140,10 +132,10 @@ const AccountDropdown = (props) => {
         onClose={onClose}
       >
         <div className={classes.accountDropdown}>
-          {isAuthenticated ?
+          {isAuthenticated ? (
             <Fragment>
               <div className={classes.marginBottom}>
-                <Link href="/profile">
+                <Link href={`/${shopId}/profile`}>
                   <Button color="primary" fullWidth>
                     {i18next.t("admin.userAccountDropdown.profileLabel")}
                   </Button>
@@ -158,7 +150,7 @@ const AccountDropdown = (props) => {
                 Sign Out
               </Button>
             </Fragment>
-            :
+          ) : (
             <Fragment>
               <div className={classes.authContent}>
                 <Button color="primary" fullWidth variant="contained" onClick={() => openModal("login")}>
@@ -169,7 +161,7 @@ const AccountDropdown = (props) => {
                 Create Account
               </Button>
             </Fragment>
-          }
+          )}
         </div>
       </Popover>
     </Fragment>

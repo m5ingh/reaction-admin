@@ -39,7 +39,7 @@ Meteor.startup(() => {
                 <ThemeProvider theme={theme}>
                   <MuiThemeProvider theme={defaultTheme}>
                     <SnackbarProvider anchorOrigin={snackbarPosition} maxSnack={3}>
-                      <DndProvider backend={HTML5Backend}>
+                      <DndProvider backend={HTML5Backend} options={{ rootElement: el }}>
                         <Route>
                           {(routeProps) => (
                             <RouterContext.Provider value={routeProps}>
