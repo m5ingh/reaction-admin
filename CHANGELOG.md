@@ -1,3 +1,14 @@
+# [3.0.0-beta.22](https://github.com/reactioncommerce/reaction-admin/compare/v3.0.0-beta.21...v3.0.0-beta.22) (2021-08-23)
+
+
+### Bug Fixes
+
+* upgrade @axa-fr/react-oidc-context from 3.0.8 to 3.1.7 ([afadf16](https://github.com/reactioncommerce/reaction-admin/commit/afadf166fdf1d64faf5c4b41b5692f5a1f8d0ba2))
+* upgrade graphql-tag from 2.9.2 to 2.12.5 ([6f140b2](https://github.com/reactioncommerce/reaction-admin/commit/6f140b294791459abbd745bc7f33aa772ed22356))
+* upgrade libphonenumber-js from 1.4.2 to 1.9.22 ([6b93c96](https://github.com/reactioncommerce/reaction-admin/commit/6b93c969e65f161747d8fc4a446ca467fd423da1))
+* upgrade react-animate-height from 2.0.3 to 2.0.23 ([0ff4c03](https://github.com/reactioncommerce/reaction-admin/commit/0ff4c03820b39bffa90d4b69746435c8508eead8))
+* upgrade slugify from 1.3.1 to 1.6.0 ([5f72959](https://github.com/reactioncommerce/reaction-admin/commit/5f72959b88203261e4833ec1be90470d26da6994))
+
 # [3.0.0-beta.21](https://github.com/reactioncommerce/reaction-admin/compare/v3.0.0-beta.20...v3.0.0-beta.21) (2021-08-09)
 
 
