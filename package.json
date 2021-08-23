@@ -100,7 +100,7 @@
     "envalid": "^6.0.0",
     "font-awesome": "^4.7.0",
     "graphql": "^14.5.8",
-    "graphql-tag": "2.9.2",
+    "graphql-tag": "2.12.5",
     "graphql.js": "0.4.20",
     "history": "^4.10.1",
     "hoist-non-react-statics": "^2.3.1",
