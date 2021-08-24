@@ -1,3 +1,10 @@
+# [3.0.0-beta.23](https://github.com/reactioncommerce/reaction-admin/compare/v3.0.0-beta.22...v3.0.0-beta.23) (2021-08-24)
+
+
+### Bug Fixes
+
+* upgrade styled-components from 3.4.2 to 3.4.10 ([e714633](https://github.com/reactioncommerce/reaction-admin/commit/e7146336dd60e9c7dcae8262456753d2be2f81a5))
+
 # [3.0.0-beta.22](https://github.com/reactioncommerce/reaction-admin/compare/v3.0.0-beta.21...v3.0.0-beta.22) (2021-08-23)
 
 
