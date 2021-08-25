@@ -1,3 +1,17 @@
+# [3.0.0-beta.24](https://github.com/reactioncommerce/reaction-admin/compare/v3.0.0-beta.23...v3.0.0-beta.24) (2021-08-25)
+
+
+### Features
+
+* use account-js for authentication" ([3d0a845](https://github.com/reactioncommerce/reaction-admin/commit/3d0a845928a7c418dbd9f68ebef1d5099d559d32))
+
+
+### BREAKING CHANGES
+
+* removes hydra/identity for auth
+
+Signed-off-by: Akarshit Wal <akarshitwal@gmail.com>
+
 # [3.0.0-beta.23](https://github.com/reactioncommerce/reaction-admin/compare/v3.0.0-beta.22...v3.0.0-beta.23) (2021-08-24)
 
 
