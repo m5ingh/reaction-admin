@@ -1,3 +1,10 @@
+# [4.0.0-beta.2](https://github.com/reactioncommerce/reaction-admin/compare/v4.0.0-beta.1...v4.0.0-beta.2) (2021-08-25)
+
+
+### Features
+
+* update description in package.json ([77efe34](https://github.com/reactioncommerce/reaction-admin/commit/77efe34c0e14a6f80e00dc2585037391d4391146))
+
 # [3.0.0-beta.24](https://github.com/reactioncommerce/reaction-admin/compare/v3.0.0-beta.23...v3.0.0-beta.24) (2021-08-25)
 
 
