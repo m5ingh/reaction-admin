@@ -1,6 +1,6 @@
 {
   "name": "reaction-admin",
-  "description": "Reaction is a modern reactive, real-time event driven ecommerce platform.",
+  "description": "Admin interface to manage Mailchimp Open Commerce Stores",
   "version": "3.0.0-beta.24",
   "main": "main.js",
   "release": {
