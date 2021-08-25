@@ -1,10 +1,7 @@
-import { Meteor } from "meteor/meteor";
 import { Template } from "meteor/templating";
 import { Reaction } from "/client/api";
 import * as Collections from "/lib/collections";
 import { Components } from "@reactioncommerce/reaction-components";
-
-const { passwordChangeUrl = "" } = Meteor.settings.public;
 
 /**
  * @method isOwnerOfProfile
@@ -141,17 +138,5 @@ Template.accountProfile.helpers({
     }
 
     return null;
-  },
-
-  changePasswordUrl() {
-    const account = getTargetAccount();
-
-    let email = "";
-    if (account && Array.isArray(account.emails)) {
-      const defaultEmail = account.emails.find((em) => em.provides === "default");
-      email = (defaultEmail && defaultEmail.address) || account.emails[0].address || "";
-    }
-
-    return passwordChangeUrl.replace("EMAIL", encodeURIComponent(email)).replace("FROM", encodeURIComponent(document.location.href));
   }
 });
