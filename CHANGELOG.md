@@ -1,3 +1,10 @@
+# [4.0.0-beta.4](https://github.com/reactioncommerce/reaction-admin/compare/v4.0.0-beta.3...v4.0.0-beta.4) (2021-08-31)
+
+
+### Bug Fixes
+
+* contributing guide and issue template ([c398fd4](https://github.com/reactioncommerce/reaction-admin/commit/c398fd4dc7685dd40a9a9a4f30c1639d7f494c9e))
+
 # [4.0.0-beta.3](https://github.com/reactioncommerce/reaction-admin/compare/v4.0.0-beta.2...v4.0.0-beta.3) (2021-08-25)
 
 
