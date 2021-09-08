@@ -1,3 +1,10 @@
+# [4.0.0-beta.5](https://github.com/reactioncommerce/reaction-admin/compare/v4.0.0-beta.4...v4.0.0-beta.5) (2021-09-08)
+
+
+### Bug Fixes
+
+* upgrade admin version in docker-compose.yml ([74bbf3c](https://github.com/reactioncommerce/reaction-admin/commit/74bbf3c316b3a722b73403121df7e97ea5c67a5d))
+
 # [4.0.0-beta.4](https://github.com/reactioncommerce/reaction-admin/compare/v4.0.0-beta.3...v4.0.0-beta.4) (2021-08-31)
 
 
