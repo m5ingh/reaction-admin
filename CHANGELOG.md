@@ -1,3 +1,14 @@
+# [4.0.0-beta.6](https://github.com/reactioncommerce/reaction-admin/compare/v4.0.0-beta.5...v4.0.0-beta.6) (2021-09-17)
+
+
+### Bug Fixes
+
+* upgrade graphql.js from 0.4.20 to 0.6.7 ([6fa0b5a](https://github.com/reactioncommerce/reaction-admin/commit/6fa0b5aa4915bdd169a59ae3a2568ad44354d8de))
+* upgrade i18next from 17.0.13 to 17.3.1 ([2a8cfd9](https://github.com/reactioncommerce/reaction-admin/commit/2a8cfd99c03a1fc5ae57365bb54d5d10dec7a764))
+* upgrade radium from 0.22.1 to 0.26.1 ([3e2ef13](https://github.com/reactioncommerce/reaction-admin/commit/3e2ef132a30190e07624410a24463d667f0a4e98))
+* upgrade react-transition-group from 2.4.0 to 2.9.0 ([eddaca3](https://github.com/reactioncommerce/reaction-admin/commit/eddaca3a38b7115244166c413fb85b8e14b123a5))
+* upgrade recompose from 0.26.0 to 0.30.0 ([87bb556](https://github.com/reactioncommerce/reaction-admin/commit/87bb55670a99004f4d84b7b2d67e76e7298084f5))
+
 # [4.0.0-beta.5](https://github.com/reactioncommerce/reaction-admin/compare/v4.0.0-beta.4...v4.0.0-beta.5) (2021-09-08)
 
 
