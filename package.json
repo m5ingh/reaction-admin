@@ -82,7 +82,7 @@
     "@reactioncommerce/catalyst": "^1.19.1",
     "@reactioncommerce/components": "^0.69.0",
     "@reactioncommerce/components-context": "1.2.0",
-    "@reactioncommerce/file-collections": "^0.7.3",
+    "@reactioncommerce/file-collections": "^0.9.3",
     "@reactioncommerce/logger": "1.1.1",
     "@reactioncommerce/random": "1.0.1",
     "@reactioncommerce/reaction-error": "^1.0.1",
