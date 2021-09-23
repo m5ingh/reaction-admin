@@ -1,3 +1,10 @@
+# [4.0.0-beta.7](https://github.com/reactioncommerce/reaction-admin/compare/v4.0.0-beta.6...v4.0.0-beta.7) (2021-09-23)
+
+
+### Bug Fixes
+
+* remove old documentation references ([18b72ef](https://github.com/reactioncommerce/reaction-admin/commit/18b72ef8d979be886bc223b9c1288a3c7e09b608))
+
 # [4.0.0-beta.6](https://github.com/reactioncommerce/reaction-admin/compare/v4.0.0-beta.5...v4.0.0-beta.6) (2021-09-17)
 
 
