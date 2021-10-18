@@ -1,3 +1,14 @@
+# [4.0.0-beta.8](https://github.com/reactioncommerce/reaction-admin/compare/v4.0.0-beta.7...v4.0.0-beta.8) (2021-10-18)
+
+
+### Bug Fixes
+
+* upgrade @material-ui/core from 4.11.4 to 4.12.3 ([be7b51a](https://github.com/reactioncommerce/reaction-admin/commit/be7b51a6b2f694905efda6f1a334c4b7521edae8))
+* upgrade @reactioncommerce/file-collections from 0.7.3 to 0.9.3 ([fd8ea55](https://github.com/reactioncommerce/reaction-admin/commit/fd8ea551abef4abbab301de5dd9f4968b5d94b25))
+* upgrade ramda from 0.25.0 to 0.27.1 ([8129128](https://github.com/reactioncommerce/reaction-admin/commit/81291289f8fad4314e3b86c93cf0004ad0d62888))
+* upgrade semantic-release from 17.4.3 to 17.4.7 ([6897cc5](https://github.com/reactioncommerce/reaction-admin/commit/6897cc5bc2c256f3328927c37ac9c9a4618abc64))
+* upgrade subscriptions-transport-ws from 0.9.16 to 0.10.0 ([5dff28d](https://github.com/reactioncommerce/reaction-admin/commit/5dff28d89e5ee8d3adbbbaa97c018749be0c932c))
+
 # [4.0.0-beta.7](https://github.com/reactioncommerce/reaction-admin/compare/v4.0.0-beta.6...v4.0.0-beta.7) (2021-09-23)
 
 
