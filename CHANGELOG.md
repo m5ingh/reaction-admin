@@ -1,3 +1,20 @@
+# [4.0.0-beta.9](https://github.com/reactioncommerce/reaction-admin/compare/v4.0.0-beta.8...v4.0.0-beta.9) (2021-10-19)
+
+
+### Bug Fixes
+
+* improves FCP by showing loading screen first ([739d547](https://github.com/reactioncommerce/reaction-admin/commit/739d547387491599bbb2c0c5404e6e9ca158fab7))
+* improves FCP by showing loading screen first ([d6c6b3e](https://github.com/reactioncommerce/reaction-admin/commit/d6c6b3e71095d7c0a55115acbdc702eafaee8995))
+* typo on message ([03bd237](https://github.com/reactioncommerce/reaction-admin/commit/03bd237e9b7ce443b7d6f7e8a3e64adb18cf01c0))
+* update template ([ef15039](https://github.com/reactioncommerce/reaction-admin/commit/ef150395cc434d3bcd1bc23b7252bd0cfbe9eaa5))
+* update template ([a2c6a04](https://github.com/reactioncommerce/reaction-admin/commit/a2c6a04f085cd9606d8141d87efc8405f761f7f8))
+* update template ([3d2f4e6](https://github.com/reactioncommerce/reaction-admin/commit/3d2f4e682bbfeefcea3a4e17cca439ac8ad30ff4))
+* upgrade @apollo/client from 3.4.7 to 3.4.15 ([4a09c52](https://github.com/reactioncommerce/reaction-admin/commit/4a09c52f4185ba2c20f04f63b6ed73a6bc104171))
+* upgrade @babel/runtime-corejs2 from 7.14.5 to 7.15.4 ([f2dc3d3](https://github.com/reactioncommerce/reaction-admin/commit/f2dc3d36595d76fc751c97bbb58425362e3f3521))
+* upgrade libphonenumber-js from 1.9.22 to 1.9.34 ([a8f87fd](https://github.com/reactioncommerce/reaction-admin/commit/a8f87fd124e3397c80344c14b1a62466c60207a3))
+* upgrade mongodb from 3.6.9 to 3.7.1 ([bd9838e](https://github.com/reactioncommerce/reaction-admin/commit/bd9838e5e0227e9b14ef0aa58590da3b1b5ed425))
+* upgrade multiple dependencies with Snyk ([4379c2c](https://github.com/reactioncommerce/reaction-admin/commit/4379c2cad99efbab80e643ac1d3288fc32b68044))
+
 # [4.0.0-beta.8](https://github.com/reactioncommerce/reaction-admin/compare/v4.0.0-beta.7...v4.0.0-beta.8) (2021-10-18)
 
 
