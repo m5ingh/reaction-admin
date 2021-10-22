@@ -1,3 +1,14 @@
+# [4.0.0-beta.10](https://github.com/reactioncommerce/reaction-admin/compare/v4.0.0-beta.9...v4.0.0-beta.10) (2021-10-22)
+
+
+### Bug Fixes
+
+* upgrade @accounts/client-password from 0.31.1 to 0.32.1 ([810d10a](https://github.com/reactioncommerce/reaction-admin/commit/810d10a53510f2b7593ba9c77504929f4648e77a))
+* upgrade @reactioncommerce/logger from 1.1.1 to 1.1.4 ([dbf0d56](https://github.com/reactioncommerce/reaction-admin/commit/dbf0d565db639db00d595039620bef3de5516c7c))
+* upgrade multiple dependencies with Snyk ([2af47ad](https://github.com/reactioncommerce/reaction-admin/commit/2af47ad9db1ddf0aca0193328ee47fc75d99eb3d))
+* upgrade node-fetch from 2.6.1 to 2.6.5 ([a3adc0e](https://github.com/reactioncommerce/reaction-admin/commit/a3adc0e53df87fea319e70608ca175c92397c791))
+* upgrade simpl-schema from 1.10.2 to 1.12.0 ([8ba518c](https://github.com/reactioncommerce/reaction-admin/commit/8ba518cc22ade9f230bf32b731cf6de4d7eee9ee))
+
 # [4.0.0-beta.9](https://github.com/reactioncommerce/reaction-admin/compare/v4.0.0-beta.8...v4.0.0-beta.9) (2021-10-19)
 
 
