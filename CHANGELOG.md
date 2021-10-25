@@ -1,3 +1,10 @@
+# [4.0.0-beta.12](https://github.com/reactioncommerce/reaction-admin/compare/v4.0.0-beta.11...v4.0.0-beta.12) (2021-10-25)
+
+
+### Reverts
+
+* upgrade @material-ui/core from 4.11.4 to 4.12.3 ([117540b](https://github.com/reactioncommerce/reaction-admin/commit/117540bc8931a439d2dc5d1655333fa790d3713b))
+
 # [4.0.0-beta.11](https://github.com/reactioncommerce/reaction-admin/compare/v4.0.0-beta.10...v4.0.0-beta.11) (2021-10-25)
 
 
