@@ -1,3 +1,10 @@
+# [4.0.0-beta.11](https://github.com/reactioncommerce/reaction-admin/compare/v4.0.0-beta.10...v4.0.0-beta.11) (2021-10-25)
+
+
+### Bug Fixes
+
+* upgrade @accounts/client from 0.31.1 to 0.33.0 ([ccdaa72](https://github.com/reactioncommerce/reaction-admin/commit/ccdaa722e3ffb87ca73e9250fdfa20b97bb9dc69))
+
 # [4.0.0-beta.10](https://github.com/reactioncommerce/reaction-admin/compare/v4.0.0-beta.9...v4.0.0-beta.10) (2021-10-22)
 
 
