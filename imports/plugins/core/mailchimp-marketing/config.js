@@ -1,4 +1,4 @@
-const MAILCHIMP_CLIENT_ID = "";
+const MAILCHIMP_CLIENT_ID = "937521099037";
 const MAILCHIMP_CLIENT_SECRET="";
 const BASE_URL="http://127.0.0.1:4080"
 const CODE=""

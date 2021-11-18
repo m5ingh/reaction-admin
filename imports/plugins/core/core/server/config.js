@@ -36,5 +36,9 @@ export default envalid.cleanEnv(process.env, {
   ROOT_URL: str({
     desc: "The canonical root URL for the Reaction Admin server",
     example: "http://localhost:4080"
-  })
+  }),
+  MAILCHIMP_CLIENT_ID: str(),
+  MAILCHIMP_CLIENT_SECRET: str(),
+  BASE_URL: str()
+  
 });
