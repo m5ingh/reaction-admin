@@ -19,7 +19,6 @@ Follow the documentation to install Mailchimp Open Commerce with [Open Commerce 
 
 Find a bug, a typo, or something that’s not documented well? We’d love for you to [open an issue](https://github.com/reactioncommerce/reaction-admin/issues) telling us what we can improve! This project uses [semantic-release](https://semantic-release.gitbook.io/semantic-release/), please use their [commit message format.](https://semantic-release.gitbook.io/semantic-release/#commit-message-format).
 
-Want to request a feature? Use our [Reaction Feature Requests repository](https://github.com/reactioncommerce/reaction-feature-requests) to file a request.
 
 We love your pull requests! Check our our [`Good First Issue`](https://github.com/reactioncommerce/reaction-admin/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) and [`Help Wanted`](https://github.com/reactioncommerce/reaction-admin/issues?q=label%3A%22help+wanted%22) tags for good issues to tackle.
 
