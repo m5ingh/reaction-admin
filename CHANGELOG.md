@@ -1,3 +1,14 @@
+# [4.0.0-beta.14](https://github.com/reactioncommerce/reaction-admin/compare/v4.0.0-beta.13...v4.0.0-beta.14) (2021-11-24)
+
+
+### Bug Fixes
+
+* upgrade @accounts/graphql-client from 0.31.1 to 0.33.0 ([2fa4d53](https://github.com/reactioncommerce/reaction-admin/commit/2fa4d532b39dee9089358c39df037c927813b464))
+* upgrade @material-ui/core from 4.11.4 to 4.12.3 ([d93aade](https://github.com/reactioncommerce/reaction-admin/commit/d93aade28f6165530bfc1ed76d25effaec1a620b))
+* upgrade autoprefixer from 9.8.6 to 9.8.8 ([827b539](https://github.com/reactioncommerce/reaction-admin/commit/827b5393c58d1efca05a64560bd0ae698d34445e))
+* upgrade csv-parse from 4.16.0 to 4.16.3 ([0a6bb89](https://github.com/reactioncommerce/reaction-admin/commit/0a6bb89f7a61093503621d69895f2a0f30eef536))
+* upgrade i18next-browser-languagedetector from 3.0.3 to 3.1.1 ([e465c55](https://github.com/reactioncommerce/reaction-admin/commit/e465c553e72f1c9c3046dbd574947fd87916b410))
+
 # [4.0.0-beta.13](https://github.com/reactioncommerce/reaction-admin/compare/v4.0.0-beta.12...v4.0.0-beta.13) (2021-11-24)
 
 
