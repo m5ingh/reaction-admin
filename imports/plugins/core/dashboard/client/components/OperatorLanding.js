@@ -49,14 +49,16 @@ function OperatorLanding() {
         </Grid>
 
         <Grid item>
-          <Typography align="center" variant="body1">
-            {/* eslint-disable-next-line max-len */}
-            Use Reaction Admin to manage <Link to={`/${shopId}/orders`}>Orders</Link>, <Link to={`/${shopId}/products`}>Products</Link>, <Link to={`/${shopId}/tags`}>Tags</Link>, <Link to={`/${shopId}/accounts`}>Accounts</Link>, and <Link to={`/${shopId}/navigation`}>Navigation</Link>, or change shop settings.
-          </Typography>
+          {viewer ? <Typography align="center" variant="body1">Use Reaction Admin to manage
+            <Link to={`/${shopId}/orders`}>Orders</Link>, <Link to={`/${shopId}/products`}>Products</Link>,
+            <Link to={`/${shopId}/tags`}>Tags</Link>, <Link to={`/${shopId}/accounts`}>Accounts</Link>, and
+            <Link to={`/${shopId}/navigation`}>Navigation</Link>, or change shop settings</Typography> :
+            <Typography align="center" variant="body1">Create your first user using the "Create Account"
+              function in the upper right or just Log in</Typography>}
         </Grid>
         <Grid item>
           <Typography align="center" variant="body1">
-            See our <MuiLink href="https://docs.reactioncommerce.com/docs/dashboard">Store Operator’s Guide</MuiLink> for more information.
+            See our <MuiLink href="https://mailchimp.com/developer/open-commerce/docs/creating-organizing-products/">Mailchimp Developer Documentation</MuiLink> for more information on how to set up your store.
           </Typography>
         </Grid>
       </Grid>
