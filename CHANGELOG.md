@@ -1,3 +1,10 @@
+# [4.0.0-beta.13](https://github.com/reactioncommerce/reaction-admin/compare/v4.0.0-beta.12...v4.0.0-beta.13) (2021-11-24)
+
+
+### Bug Fixes
+
+* broken link+add context sensitive next steps ([2e5bbae](https://github.com/reactioncommerce/reaction-admin/commit/2e5bbaeb65c8e6b87fd4c2e6444b8d59f21937f4))
+
 # [4.0.0-beta.12](https://github.com/reactioncommerce/reaction-admin/compare/v4.0.0-beta.11...v4.0.0-beta.12) (2021-10-25)
 
 
