@@ -258,8 +258,7 @@
     "version": "echo $npm_package_version",
     "postinstall": "is-ci || is-docker || husky install",
     "prepublishOnly": "pinst --disable",
-    "postpublish": "pinst --enable",
-    "npm-check": "npm-check -u"
+    "postpublish": "pinst --enable"
   },
   "babel": {
     "plugins": [
