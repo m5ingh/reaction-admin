@@ -1,10 +1,12 @@
 // Assumes Node 8.x
 import _ from "lodash";
 import childProcess from "child_process";
+import dotenv from "dotenv";
 import Log from "./logger.mjs";
 import appSetup from "./appSetup.mjs";
 
 function run() {
+  dotenv.config();
   appSetup();
 
   // Whatever debugging-related command line arguments were passed in to
