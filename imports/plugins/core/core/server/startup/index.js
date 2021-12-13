@@ -21,7 +21,6 @@ const {
  */
 export default function startup() {
   const startTime = Date.now();
-
   // This env may be set by the launch script, allowing us to time how long Meteor build/startup took.
   if (REACTION_METEOR_APP_COMMAND_START_TIME) {
     const elapsedMs = startTime - REACTION_METEOR_APP_COMMAND_START_TIME;
