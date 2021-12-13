@@ -1,3 +1,16 @@
+# [4.0.0-beta.15](https://github.com/reactioncommerce/reaction-admin/compare/v4.0.0-beta.14...v4.0.0-beta.15) (2021-12-13)
+
+
+### Bug Fixes
+
+* remove npm-check to not introduce vulnerability ([bac11fa](https://github.com/reactioncommerce/reaction-admin/commit/bac11fab8ad8573887a421c92df9fce8f14c16d7))
+* remove npm-check to not introduce vulnerability ([7f13ab2](https://github.com/reactioncommerce/reaction-admin/commit/7f13ab21ea4a0538c4adc3ea9d263496ef9500a5))
+
+
+### Features
+
+* respect .env files ([ec4f0f5](https://github.com/reactioncommerce/reaction-admin/commit/ec4f0f524c44e38d9fde515775a82b3f575ab8b7))
+
 # [4.0.0-beta.14](https://github.com/reactioncommerce/reaction-admin/compare/v4.0.0-beta.13...v4.0.0-beta.14) (2021-11-24)
 
 
